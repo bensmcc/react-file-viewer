@@ -1,12 +1,12 @@
 {
-  "name": "react-file-viewer",
-  "version": "1.2.1",
-  "description": "Extendable file viewer for web",
+  "name": "react-file-viewer-updated",
+  "version": "1.2.2",
+  "description": "Extendable file viewer for web with updated packages.",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plangrid/react-file-viewer.git"
+    "url": "git+https://github.com/HealthDataMovers/react-file-viewer.git"
   },
   "scripts": {
     "dev": "webpack -d --watch",
@@ -17,7 +17,7 @@
     "jest": "node_modules/.bin/jest --env=jsdom",
     "tag-and-publish": "node ./scripts/publish.js"
   },
-  "author": "PlanGrid <opensource@plangrid.com>",
+  "author": "Health Data Movers <support@healthdatamovers.com>",
   "contributors": [
     {
       "name": "Alexei Schiopu",
@@ -31,6 +31,10 @@
     {
       "name": "Viktoriya Savkina",
       "email": "viktoriya.savkina@gmail.com"
+    },
+    {
+      "name": "Drew Klayman",
+      "email": "drewklay@gmail.com"
     }
   ],
   "license": "MIT",
@@ -79,11 +83,11 @@
   },
   "dependencies": {
     "comma-separated-values": "^3.6.4",
-    "mammoth": "1.3.6",
+    "mammoth": "^1.4.13",
     "pdfjs-dist": "1.8.357",
-    "prop-types": "^15.5.10",
+    "prop-types": "^15.7.2",
     "react-data-grid": "^5.0.5",
-    "react-visibility-sensor": "^5.0.2",
+    "react-visibility-sensor": "^5.1.1",
     "three": "0.85.2",
     "xlsx": "^0.10.1"
   },
