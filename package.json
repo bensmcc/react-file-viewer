@@ -82,7 +82,7 @@
   },
   "dependencies": {
     "comma-separated-values": "^3.6.4",
-    "mammoth": "1.4.16",
+    "mammoth": "git@github.com:mwilliamson/mammoth.js.git#463d0ab0bd72fdac10f4bd4c43210b82a966b84e",
     "pdfjs-dist": "1.8.357",
     "prop-types": "^15.7.2",
     "react-data-grid": "^5.0.5",
